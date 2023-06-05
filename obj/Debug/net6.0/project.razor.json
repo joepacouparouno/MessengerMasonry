@@ -9,245 +9,6 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": -1615121949,
-        "Kind": "Components.Component",
-        "Name": "Messenger_Masonry.Shared.NavMenu",
-        "AssemblyName": "Messenger_Masonry",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Messenger_Masonry.Shared.NavMenu",
-          "Common.TypeNameIdentifier": "NavMenu",
-          "Common.TypeNamespace": "Messenger_Masonry.Shared",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -1651880782,
-        "Kind": "Components.Component",
-        "Name": "Messenger_Masonry.Shared.NavMenu",
-        "AssemblyName": "Messenger_Masonry",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Messenger_Masonry.Shared.NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Messenger_Masonry.Shared.NavMenu",
-          "Common.TypeNameIdentifier": "NavMenu",
-          "Common.TypeNamespace": "Messenger_Masonry.Shared",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -1582799002,
-        "Kind": "Components.Component",
-        "Name": "Messenger_Masonry.Shared.MainLayout",
-        "AssemblyName": "Messenger_Masonry",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MainLayout"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Body",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
-            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.LayoutComponentBase.Body\">\r\n            <summary>\r\n            Gets the content to be rendered inside the layout.\r\n            </summary>\r\n        </member>",
-            "Metadata": {
-              "Common.PropertyName": "Body",
-              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment",
-              "Components.ChildContent": "True"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Messenger_Masonry.Shared.MainLayout",
-          "Common.TypeNameIdentifier": "MainLayout",
-          "Common.TypeNamespace": "Messenger_Masonry.Shared",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 1588373717,
-        "Kind": "Components.Component",
-        "Name": "Messenger_Masonry.Shared.MainLayout",
-        "AssemblyName": "Messenger_Masonry",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Messenger_Masonry.Shared.MainLayout"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Body",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
-            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.LayoutComponentBase.Body\">\r\n            <summary>\r\n            Gets the content to be rendered inside the layout.\r\n            </summary>\r\n        </member>",
-            "Metadata": {
-              "Common.PropertyName": "Body",
-              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment",
-              "Components.ChildContent": "True"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Messenger_Masonry.Shared.MainLayout",
-          "Common.TypeNameIdentifier": "MainLayout",
-          "Common.TypeNamespace": "Messenger_Masonry.Shared",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -966472359,
-        "Kind": "Components.ChildContent",
-        "Name": "Messenger_Masonry.Shared.MainLayout.Body",
-        "AssemblyName": "Messenger_Masonry",
-        "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.LayoutComponentBase.Body\">\r\n            <summary>\r\n            Gets the content to be rendered inside the layout.\r\n            </summary>\r\n        </member>",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Body",
-            "ParentTag": "MainLayout"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Messenger_Masonry.Shared.MainLayout.Body",
-          "Common.TypeNameIdentifier": "MainLayout",
-          "Common.TypeNamespace": "Messenger_Masonry.Shared",
-          "Components.IsSpecialKind": "Components.ChildContent",
-          "Runtime.Name": "Components.None"
-        }
-      },
-      {
-        "HashCode": -40589447,
-        "Kind": "Components.ChildContent",
-        "Name": "Messenger_Masonry.Shared.MainLayout.Body",
-        "AssemblyName": "Messenger_Masonry",
-        "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.LayoutComponentBase.Body\">\r\n            <summary>\r\n            Gets the content to be rendered inside the layout.\r\n            </summary>\r\n        </member>",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Body",
-            "ParentTag": "Messenger_Masonry.Shared.MainLayout"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Messenger_Masonry.Shared.MainLayout.Body",
-          "Common.TypeNameIdentifier": "MainLayout",
-          "Common.TypeNamespace": "Messenger_Masonry.Shared",
-          "Components.IsSpecialKind": "Components.ChildContent",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.None"
-        }
-      },
-      {
-        "HashCode": 1034603852,
-        "Kind": "Components.Component",
-        "Name": "Messenger_Masonry.Shared.Footer",
-        "AssemblyName": "Messenger_Masonry",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Footer"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Messenger_Masonry.Shared.Footer",
-          "Common.TypeNameIdentifier": "Footer",
-          "Common.TypeNamespace": "Messenger_Masonry.Shared",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 552590833,
-        "Kind": "Components.Component",
-        "Name": "Messenger_Masonry.Shared.Footer",
-        "AssemblyName": "Messenger_Masonry",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Messenger_Masonry.Shared.Footer"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Messenger_Masonry.Shared.Footer",
-          "Common.TypeNameIdentifier": "Footer",
-          "Common.TypeNamespace": "Messenger_Masonry.Shared",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -46286662,
-        "Kind": "Components.Component",
-        "Name": "Messenger_Masonry.Shared.SurveyPrompt",
-        "AssemblyName": "Messenger_Masonry",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title",
-              "Common.GloballyQualifiedTypeName": "global::System.String"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Messenger_Masonry.Shared.SurveyPrompt",
-          "Common.TypeNameIdentifier": "SurveyPrompt",
-          "Common.TypeNamespace": "Messenger_Masonry.Shared",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -422113922,
-        "Kind": "Components.Component",
-        "Name": "Messenger_Masonry.Shared.SurveyPrompt",
-        "AssemblyName": "Messenger_Masonry",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Messenger_Masonry.Shared.SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title",
-              "Common.GloballyQualifiedTypeName": "global::System.String"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Messenger_Masonry.Shared.SurveyPrompt",
-          "Common.TypeNameIdentifier": "SurveyPrompt",
-          "Common.TypeNamespace": "Messenger_Masonry.Shared",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
         "HashCode": 1641385890,
         "Kind": "Components.Component",
         "Name": "Messenger_Masonry.Pages.About",
@@ -430,6 +191,245 @@
           "Common.TypeNamespace": "Messenger_Masonry",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1034603852,
+        "Kind": "Components.Component",
+        "Name": "Messenger_Masonry.Shared.Footer",
+        "AssemblyName": "Messenger_Masonry",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Footer"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Messenger_Masonry.Shared.Footer",
+          "Common.TypeNameIdentifier": "Footer",
+          "Common.TypeNamespace": "Messenger_Masonry.Shared",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 552590833,
+        "Kind": "Components.Component",
+        "Name": "Messenger_Masonry.Shared.Footer",
+        "AssemblyName": "Messenger_Masonry",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Messenger_Masonry.Shared.Footer"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Messenger_Masonry.Shared.Footer",
+          "Common.TypeNameIdentifier": "Footer",
+          "Common.TypeNamespace": "Messenger_Masonry.Shared",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -46286662,
+        "Kind": "Components.Component",
+        "Name": "Messenger_Masonry.Shared.SurveyPrompt",
+        "AssemblyName": "Messenger_Masonry",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Messenger_Masonry.Shared.SurveyPrompt",
+          "Common.TypeNameIdentifier": "SurveyPrompt",
+          "Common.TypeNamespace": "Messenger_Masonry.Shared",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -422113922,
+        "Kind": "Components.Component",
+        "Name": "Messenger_Masonry.Shared.SurveyPrompt",
+        "AssemblyName": "Messenger_Masonry",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Messenger_Masonry.Shared.SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Messenger_Masonry.Shared.SurveyPrompt",
+          "Common.TypeNameIdentifier": "SurveyPrompt",
+          "Common.TypeNamespace": "Messenger_Masonry.Shared",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1615121949,
+        "Kind": "Components.Component",
+        "Name": "Messenger_Masonry.Shared.NavMenu",
+        "AssemblyName": "Messenger_Masonry",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Messenger_Masonry.Shared.NavMenu",
+          "Common.TypeNameIdentifier": "NavMenu",
+          "Common.TypeNamespace": "Messenger_Masonry.Shared",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1651880782,
+        "Kind": "Components.Component",
+        "Name": "Messenger_Masonry.Shared.NavMenu",
+        "AssemblyName": "Messenger_Masonry",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Messenger_Masonry.Shared.NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Messenger_Masonry.Shared.NavMenu",
+          "Common.TypeNameIdentifier": "NavMenu",
+          "Common.TypeNamespace": "Messenger_Masonry.Shared",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1582799002,
+        "Kind": "Components.Component",
+        "Name": "Messenger_Masonry.Shared.MainLayout",
+        "AssemblyName": "Messenger_Masonry",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MainLayout"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Body",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.LayoutComponentBase.Body\">\r\n            <summary>\r\n            Gets the content to be rendered inside the layout.\r\n            </summary>\r\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "Body",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Messenger_Masonry.Shared.MainLayout",
+          "Common.TypeNameIdentifier": "MainLayout",
+          "Common.TypeNamespace": "Messenger_Masonry.Shared",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1588373717,
+        "Kind": "Components.Component",
+        "Name": "Messenger_Masonry.Shared.MainLayout",
+        "AssemblyName": "Messenger_Masonry",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Messenger_Masonry.Shared.MainLayout"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Body",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.LayoutComponentBase.Body\">\r\n            <summary>\r\n            Gets the content to be rendered inside the layout.\r\n            </summary>\r\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "Body",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Messenger_Masonry.Shared.MainLayout",
+          "Common.TypeNameIdentifier": "MainLayout",
+          "Common.TypeNamespace": "Messenger_Masonry.Shared",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -966472359,
+        "Kind": "Components.ChildContent",
+        "Name": "Messenger_Masonry.Shared.MainLayout.Body",
+        "AssemblyName": "Messenger_Masonry",
+        "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.LayoutComponentBase.Body\">\r\n            <summary>\r\n            Gets the content to be rendered inside the layout.\r\n            </summary>\r\n        </member>",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Body",
+            "ParentTag": "MainLayout"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Messenger_Masonry.Shared.MainLayout.Body",
+          "Common.TypeNameIdentifier": "MainLayout",
+          "Common.TypeNamespace": "Messenger_Masonry.Shared",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Runtime.Name": "Components.None"
+        }
+      },
+      {
+        "HashCode": -40589447,
+        "Kind": "Components.ChildContent",
+        "Name": "Messenger_Masonry.Shared.MainLayout.Body",
+        "AssemblyName": "Messenger_Masonry",
+        "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.LayoutComponentBase.Body\">\r\n            <summary>\r\n            Gets the content to be rendered inside the layout.\r\n            </summary>\r\n        </member>",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Body",
+            "ParentTag": "Messenger_Masonry.Shared.MainLayout"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Messenger_Masonry.Shared.MainLayout.Body",
+          "Common.TypeNameIdentifier": "MainLayout",
+          "Common.TypeNamespace": "Messenger_Masonry.Shared",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.None"
         }
       },
       {

@@ -557,10 +557,10 @@ main {
 
 .homeHero {
     background-image: url('./Assets/Images/pexels-pixabay-276514.jpg') ;
-    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
+    background-position: fixed;
 }
 
 .topHero {
@@ -578,10 +578,10 @@ main {
 
 .workHero {
     background-image: url('./Assets/Images/wall-3630911.jpg') ;
-    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
+    background-position: fixed;
     padding: 120px 0 0 0;
 }
 
