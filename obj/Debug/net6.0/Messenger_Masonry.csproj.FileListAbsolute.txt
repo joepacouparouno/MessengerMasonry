@@ -4,6 +4,7 @@ C:\Users\otool\Documents\MessengerMasonry\Messenger_Masonry\obj\Debug\net6.0\Mes
 C:\Users\otool\Documents\MessengerMasonry\Messenger_Masonry\obj\Debug\net6.0\Messenger_Masonry.AssemblyInfo.cs
 C:\Users\otool\Documents\MessengerMasonry\Messenger_Masonry\obj\Debug\net6.0\Messenger_Masonry.csproj.CoreCompileInputs.cache
 C:\Users\otool\Documents\MessengerMasonry\Messenger_Masonry\obj\Debug\net6.0\Messenger_Masonry.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\otool\Documents\MessengerMasonry\Messenger_Masonry\bin\Debug\net6.0\wwwroot\_framework\blazor.boot.json
 C:\Users\otool\Documents\MessengerMasonry\Messenger_Masonry\bin\Debug\net6.0\wwwroot\_framework\blazor.webassembly.js
 C:\Users\otool\Documents\MessengerMasonry\Messenger_Masonry\bin\Debug\net6.0\wwwroot\_framework\dotnet.6.0.3.r9om0m6i6l.js
 C:\Users\otool\Documents\MessengerMasonry\Messenger_Masonry\bin\Debug\net6.0\wwwroot\_framework\dotnet.timezones.blat
@@ -12,6 +13,8 @@ C:\Users\otool\Documents\MessengerMasonry\Messenger_Masonry\bin\Debug\net6.0\www
 C:\Users\otool\Documents\MessengerMasonry\Messenger_Masonry\bin\Debug\net6.0\wwwroot\_framework\icudt_EFIGS.dat
 C:\Users\otool\Documents\MessengerMasonry\Messenger_Masonry\bin\Debug\net6.0\wwwroot\_framework\icudt_no_CJK.dat
 C:\Users\otool\Documents\MessengerMasonry\Messenger_Masonry\bin\Debug\net6.0\wwwroot\_framework\icudt.dat
+C:\Users\otool\Documents\MessengerMasonry\Messenger_Masonry\bin\Debug\net6.0\wwwroot\_framework\Messenger_Masonry.dll
+C:\Users\otool\Documents\MessengerMasonry\Messenger_Masonry\bin\Debug\net6.0\wwwroot\_framework\Messenger_Masonry.pdb
 C:\Users\otool\Documents\MessengerMasonry\Messenger_Masonry\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.dll
 C:\Users\otool\Documents\MessengerMasonry\Messenger_Masonry\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.dll
 C:\Users\otool\Documents\MessengerMasonry\Messenger_Masonry\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Forms.dll
@@ -334,6 +337,7 @@ C:\Users\otool\Documents\MessengerMasonry\Messenger_Masonry\bin\Debug\net6.0\www
 C:\Users\otool\Documents\MessengerMasonry\Messenger_Masonry\bin\Debug\net6.0\wwwroot\_framework\dotnet.6.0.3.r9om0m6i6l.js.gz
 C:\Users\otool\Documents\MessengerMasonry\Messenger_Masonry\bin\Debug\net6.0\wwwroot\_framework\System.Reflection.Emit.dll.gz
 C:\Users\otool\Documents\MessengerMasonry\Messenger_Masonry\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.Extensions.dll.gz
+C:\Users\otool\Documents\MessengerMasonry\Messenger_Masonry\bin\Debug\net6.0\wwwroot\_framework\Messenger_Masonry.pdb.gz
 C:\Users\otool\Documents\MessengerMasonry\Messenger_Masonry\bin\Debug\net6.0\wwwroot\_framework\System.Net.Quic.dll.gz
 C:\Users\otool\Documents\MessengerMasonry\Messenger_Masonry\bin\Debug\net6.0\wwwroot\_framework\System.Collections.NonGeneric.dll.gz
 C:\Users\otool\Documents\MessengerMasonry\Messenger_Masonry\bin\Debug\net6.0\wwwroot\_framework\System.Data.Common.dll.gz
@@ -391,6 +395,7 @@ C:\Users\otool\Documents\MessengerMasonry\Messenger_Masonry\bin\Debug\net6.0\www
 C:\Users\otool\Documents\MessengerMasonry\Messenger_Masonry\bin\Debug\net6.0\wwwroot\_framework\System.Security.Cryptography.OpenSsl.dll.gz
 C:\Users\otool\Documents\MessengerMasonry\Messenger_Masonry\bin\Debug\net6.0\wwwroot\_framework\System.Text.Encoding.Extensions.dll.gz
 C:\Users\otool\Documents\MessengerMasonry\Messenger_Masonry\bin\Debug\net6.0\wwwroot\_framework\Microsoft.VisualBasic.dll.gz
+C:\Users\otool\Documents\MessengerMasonry\Messenger_Masonry\bin\Debug\net6.0\wwwroot\_framework\Messenger_Masonry.dll.gz
 C:\Users\otool\Documents\MessengerMasonry\Messenger_Masonry\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.Loader.dll.gz
 C:\Users\otool\Documents\MessengerMasonry\Messenger_Masonry\bin\Debug\net6.0\wwwroot\_framework\System.ServiceProcess.dll.gz
 C:\Users\otool\Documents\MessengerMasonry\Messenger_Masonry\bin\Debug\net6.0\wwwroot\_framework\System.Security.Cryptography.X509Certificates.dll.gz
@@ -398,11 +403,6 @@ C:\Users\otool\Documents\MessengerMasonry\Messenger_Masonry\bin\Debug\net6.0\www
 C:\Users\otool\Documents\MessengerMasonry\Messenger_Masonry\bin\Debug\net6.0\wwwroot\_framework\System.Security.Principal.Windows.dll.gz
 C:\Users\otool\Documents\MessengerMasonry\Messenger_Masonry\bin\Debug\net6.0\wwwroot\_framework\System.Diagnostics.FileVersionInfo.dll.gz
 C:\Users\otool\Documents\MessengerMasonry\Messenger_Masonry\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.InteropServices.dll.gz
-C:\Users\otool\Documents\MessengerMasonry\Messenger_Masonry\bin\Debug\net6.0\wwwroot\_framework\blazor.boot.json
-C:\Users\otool\Documents\MessengerMasonry\Messenger_Masonry\bin\Debug\net6.0\wwwroot\_framework\Messenger_Masonry.dll
-C:\Users\otool\Documents\MessengerMasonry\Messenger_Masonry\bin\Debug\net6.0\wwwroot\_framework\Messenger_Masonry.pdb
-C:\Users\otool\Documents\MessengerMasonry\Messenger_Masonry\bin\Debug\net6.0\wwwroot\_framework\Messenger_Masonry.pdb.gz
-C:\Users\otool\Documents\MessengerMasonry\Messenger_Masonry\bin\Debug\net6.0\wwwroot\_framework\Messenger_Masonry.dll.gz
 C:\Users\otool\Documents\MessengerMasonry\Messenger_Masonry\bin\Debug\net6.0\package.json
 C:\Users\otool\Documents\MessengerMasonry\Messenger_Masonry\bin\Debug\net6.0\Messenger_Masonry.staticwebassets.runtime.json
 C:\Users\otool\Documents\MessengerMasonry\Messenger_Masonry\bin\Debug\net6.0\Messenger_Masonry.dll
