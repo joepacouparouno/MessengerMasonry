@@ -9,154 +9,6 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": 938808350,
-        "Kind": "Components.Component",
-        "Name": "Messenger_Masonry.Pages.Index",
-        "AssemblyName": "Messenger_Masonry",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Messenger_Masonry.Pages.Index",
-          "Common.TypeNameIdentifier": "Index",
-          "Common.TypeNamespace": "Messenger_Masonry.Pages",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 657308110,
-        "Kind": "Components.Component",
-        "Name": "Messenger_Masonry.Pages.Index",
-        "AssemblyName": "Messenger_Masonry",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Messenger_Masonry.Pages.Index"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Messenger_Masonry.Pages.Index",
-          "Common.TypeNameIdentifier": "Index",
-          "Common.TypeNamespace": "Messenger_Masonry.Pages",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -822455334,
-        "Kind": "Components.Component",
-        "Name": "Messenger_Masonry.Pages.Work",
-        "AssemblyName": "Messenger_Masonry",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Work"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Messenger_Masonry.Pages.Work",
-          "Common.TypeNameIdentifier": "Work",
-          "Common.TypeNamespace": "Messenger_Masonry.Pages",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 2070775957,
-        "Kind": "Components.Component",
-        "Name": "Messenger_Masonry.Pages.Work",
-        "AssemblyName": "Messenger_Masonry",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Messenger_Masonry.Pages.Work"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Messenger_Masonry.Pages.Work",
-          "Common.TypeNameIdentifier": "Work",
-          "Common.TypeNamespace": "Messenger_Masonry.Pages",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -2089747009,
-        "Kind": "Components.Component",
-        "Name": "Messenger_Masonry.Pages.Contact",
-        "AssemblyName": "Messenger_Masonry",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Contact"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Messenger_Masonry.Pages.Contact",
-          "Common.TypeNameIdentifier": "Contact",
-          "Common.TypeNamespace": "Messenger_Masonry.Pages",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 2081801989,
-        "Kind": "Components.Component",
-        "Name": "Messenger_Masonry.Pages.Contact",
-        "AssemblyName": "Messenger_Masonry",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Messenger_Masonry.Pages.Contact"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Messenger_Masonry.Pages.Contact",
-          "Common.TypeNameIdentifier": "Contact",
-          "Common.TypeNamespace": "Messenger_Masonry.Pages",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 1641385890,
-        "Kind": "Components.Component",
-        "Name": "Messenger_Masonry.Pages.About",
-        "AssemblyName": "Messenger_Masonry",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "About"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Messenger_Masonry.Pages.About",
-          "Common.TypeNameIdentifier": "About",
-          "Common.TypeNamespace": "Messenger_Masonry.Pages",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 1393724664,
-        "Kind": "Components.Component",
-        "Name": "Messenger_Masonry.Pages.About",
-        "AssemblyName": "Messenger_Masonry",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Messenger_Masonry.Pages.About"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Messenger_Masonry.Pages.About",
-          "Common.TypeNameIdentifier": "About",
-          "Common.TypeNamespace": "Messenger_Masonry.Pages",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
         "HashCode": -1766392499,
         "Kind": "Components.Component",
         "Name": "Messenger_Masonry.App",
@@ -428,6 +280,154 @@
           "Common.TypeName": "Messenger_Masonry.Shared.SurveyPrompt",
           "Common.TypeNameIdentifier": "SurveyPrompt",
           "Common.TypeNamespace": "Messenger_Masonry.Shared",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -822455334,
+        "Kind": "Components.Component",
+        "Name": "Messenger_Masonry.Pages.Work",
+        "AssemblyName": "Messenger_Masonry",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Work"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Messenger_Masonry.Pages.Work",
+          "Common.TypeNameIdentifier": "Work",
+          "Common.TypeNamespace": "Messenger_Masonry.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 2070775957,
+        "Kind": "Components.Component",
+        "Name": "Messenger_Masonry.Pages.Work",
+        "AssemblyName": "Messenger_Masonry",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Messenger_Masonry.Pages.Work"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Messenger_Masonry.Pages.Work",
+          "Common.TypeNameIdentifier": "Work",
+          "Common.TypeNamespace": "Messenger_Masonry.Pages",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -2089747009,
+        "Kind": "Components.Component",
+        "Name": "Messenger_Masonry.Pages.Contact",
+        "AssemblyName": "Messenger_Masonry",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Contact"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Messenger_Masonry.Pages.Contact",
+          "Common.TypeNameIdentifier": "Contact",
+          "Common.TypeNamespace": "Messenger_Masonry.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 2081801989,
+        "Kind": "Components.Component",
+        "Name": "Messenger_Masonry.Pages.Contact",
+        "AssemblyName": "Messenger_Masonry",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Messenger_Masonry.Pages.Contact"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Messenger_Masonry.Pages.Contact",
+          "Common.TypeNameIdentifier": "Contact",
+          "Common.TypeNamespace": "Messenger_Masonry.Pages",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1641385890,
+        "Kind": "Components.Component",
+        "Name": "Messenger_Masonry.Pages.About",
+        "AssemblyName": "Messenger_Masonry",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "About"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Messenger_Masonry.Pages.About",
+          "Common.TypeNameIdentifier": "About",
+          "Common.TypeNamespace": "Messenger_Masonry.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1393724664,
+        "Kind": "Components.Component",
+        "Name": "Messenger_Masonry.Pages.About",
+        "AssemblyName": "Messenger_Masonry",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Messenger_Masonry.Pages.About"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Messenger_Masonry.Pages.About",
+          "Common.TypeNameIdentifier": "About",
+          "Common.TypeNamespace": "Messenger_Masonry.Pages",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 938808350,
+        "Kind": "Components.Component",
+        "Name": "Messenger_Masonry.Pages.Index",
+        "AssemblyName": "Messenger_Masonry",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Messenger_Masonry.Pages.Index",
+          "Common.TypeNameIdentifier": "Index",
+          "Common.TypeNamespace": "Messenger_Masonry.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 657308110,
+        "Kind": "Components.Component",
+        "Name": "Messenger_Masonry.Pages.Index",
+        "AssemblyName": "Messenger_Masonry",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Messenger_Masonry.Pages.Index"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Messenger_Masonry.Pages.Index",
+          "Common.TypeNameIdentifier": "Index",
+          "Common.TypeNamespace": "Messenger_Masonry.Pages",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
         }
