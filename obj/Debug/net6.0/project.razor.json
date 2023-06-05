@@ -290,43 +290,6 @@
         }
       },
       {
-        "HashCode": -1615121949,
-        "Kind": "Components.Component",
-        "Name": "Messenger_Masonry.Shared.NavMenu",
-        "AssemblyName": "Messenger_Masonry",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Messenger_Masonry.Shared.NavMenu",
-          "Common.TypeNameIdentifier": "NavMenu",
-          "Common.TypeNamespace": "Messenger_Masonry.Shared",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -1651880782,
-        "Kind": "Components.Component",
-        "Name": "Messenger_Masonry.Shared.NavMenu",
-        "AssemblyName": "Messenger_Masonry",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Messenger_Masonry.Shared.NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Messenger_Masonry.Shared.NavMenu",
-          "Common.TypeNameIdentifier": "NavMenu",
-          "Common.TypeNamespace": "Messenger_Masonry.Shared",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
         "HashCode": -1582799002,
         "Kind": "Components.Component",
         "Name": "Messenger_Masonry.Shared.MainLayout",
@@ -430,6 +393,43 @@
           "Components.IsSpecialKind": "Components.ChildContent",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.None"
+        }
+      },
+      {
+        "HashCode": -1615121949,
+        "Kind": "Components.Component",
+        "Name": "Messenger_Masonry.Shared.NavMenu",
+        "AssemblyName": "Messenger_Masonry",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Messenger_Masonry.Shared.NavMenu",
+          "Common.TypeNameIdentifier": "NavMenu",
+          "Common.TypeNamespace": "Messenger_Masonry.Shared",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1651880782,
+        "Kind": "Components.Component",
+        "Name": "Messenger_Masonry.Shared.NavMenu",
+        "AssemblyName": "Messenger_Masonry",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Messenger_Masonry.Shared.NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Messenger_Masonry.Shared.NavMenu",
+          "Common.TypeNameIdentifier": "NavMenu",
+          "Common.TypeNamespace": "Messenger_Masonry.Shared",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
         }
       },
       {
