@@ -8,32 +8,32 @@ $ git commit -m "Start ignoring debug.log";
 
 $ echo .github >> .gitignore
   
-$ git rm --cached .github
-rm '.github'
+$ git rm dir --cached .github
+rm dir '.github'
   
 $ git commit -m "Start ignoring .github"
 
 
 $ echo .vscode >> .gitignore
   
-$ git rm --cached .vscode
-rm '.vscode'
+$ git rm dir --cached .vscode
+rm dir '.vscode'
   
 $ git commit -m "Start ignoring .vscode"
 
 
 $ echo bin >> .gitignore
   
-$ git rm --cached bin
-rm 'bin'
+$ git rm dir --cached bin
+rm dir 'bin'
   
 $ git commit -m "Start ignoring bin"
 
 
 $ echo obj >> .gitignore
   
-$ git rm --cached obj
-rm 'obj'
+$ git rm dir --cached obj
+rm dir 'obj'
   
 $ git commit -m "Start ignoring obj"
 
