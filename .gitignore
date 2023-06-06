@@ -1,39 +1,44 @@
-$ echo debug.log >> .gitignore
+echo debug.log >> .gitignore
   
-$ git rm --cached debug.log
+git rm --cached debug.log
 rm 'debug.log'
   
-$ git commit -m "Start ignoring debug.log";
+git commit -m "Start ignoring debug.log";
 
 
-$ echo .github >> .gitignore
+echo .github >> .gitignore
   
-$ git rm dir --cached .github
-rm dir '.github'
+git rmdir --cached .github
+rmdir '.github'
   
-$ git commit -m "Start ignoring .github"
+git commit -m "Start ignoring .github"
 
 
-$ echo .vscode >> .gitignore
+echo .vscode >> .gitignore
   
-$ git rm dir --cached .vscode
-rm dir '.vscode'
+git rmdir --cached .vscode
+rmdir '.vscode'
   
-$ git commit -m "Start ignoring .vscode"
+git commit -m "Start ignoring .vscode"
 
 
-$ echo bin >> .gitignore
+echo bin >> .gitignore
   
-$ git rm dir --cached bin
-rm dir 'bin'
+git rmdir --cached bin
+rmdir 'bin'
   
-$ git commit -m "Start ignoring bin"
+git commit -m "Start ignoring bin"
 
 
-$ echo obj >> .gitignore
+echo obj >> .gitignore
   
-$ git rm dir --cached obj
-rm dir 'obj'
+git rmdir --cached obj
+rmdir 'obj'
   
-$ git commit -m "Start ignoring obj"
+git commit -m "Start ignoring obj"
 
+debug.log
+.github
+.vscode
+bin
+obj

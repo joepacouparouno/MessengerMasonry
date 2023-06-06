@@ -1,5 +1,0 @@
-{
-"homepage": "https://github.com/Joepacouparouno/MessengerMasonry/wwwroot/index.html", 
-"predeploy": "npm run build",
-"deploy": "gh-pages -b gh-pages -d build" 
-}
