@@ -8,16 +8,15 @@ git commit -m "Start ignoring debug.log";
 
 echo .github >> .gitignore
   
-git rmdir --cached .github
-rmdir '.github'
+git rm -rf --cached .github
   
 git commit -m "Start ignoring .github"
 
 
 echo .vscode >> .gitignore
   
-git rmdir --cached .vscode
-rmdir '.vscode'
+git rm -rf --cached .vscode
+rm -rf .vscode
   
 git commit -m "Start ignoring .vscode"
 
@@ -38,7 +37,8 @@ rmdir 'obj'
 git commit -m "Start ignoring obj"
 
 debug.log
-.github
 .vscode
 bin
 obj
+.github
+
