@@ -559,8 +559,8 @@ main {
     background-image: url('./Assets/Images/pexels-pixabay-276514.jpg') ;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: fixed;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 .topHero {
@@ -580,14 +580,15 @@ main {
     background-image: url('./Assets/Images/wall-3630911.jpg') ;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: fixed;
+    background-attachment: fixed;
+    background-position: center;
     padding: 120px 0 0 0;
 }
 
 /* 5. Contact *************************************/
     .contactHero {
         background: var(--secondaryColor);
+        color: var(--primaryColor);
     }
 
 /* 5. Footer *************************************/
@@ -608,14 +609,13 @@ main {
         grid-row: 1;
         grid-column: 1;
         width: 100%;
-        max-width: 120px;
-        padding: 0 0px 0 15px;
-        align-self: center;
+        max-width: 150px;
+        padding: 0 0px 0 25px;
 
     }
 
     .rightContainer {
-        padding: 0 15px 0 0;
+        padding: 0 25px 0 0;
         grid-row: 1;
         grid-column: 2;
         width: 100%;
@@ -691,7 +691,10 @@ main {
         #footer {
             padding: 22px 0 10px 0;
         }
-
+        .footerIcon {
+            align-self: center;
+            max-width: 170px;
+        }
         .navLinks {
             display: flex;
         }
