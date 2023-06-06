@@ -1,44 +1,7 @@
-echo debug.log >> .gitignore
-  
-git rm --cached debug.log
-rm 'debug.log'
-  
-git commit -m "Start ignoring debug.log";
 
-
-echo .github >> .gitignore
-  
-git rm -rf --cached .github
-  
-git commit -m "Start ignoring .github"
-
-
-echo .vscode >> .gitignore
-  
-git rm -rf --cached .vscode
-rm -rf .vscode
-  
-git commit -m "Start ignoring .vscode"
-
-
-echo bin >> .gitignore
-  
-git rmdir --cached bin
-rmdir 'bin'
-  
-git commit -m "Start ignoring bin"
-
-
-echo obj >> .gitignore
-  
-git rmdir --cached obj
-rmdir 'obj'
-  
-git commit -m "Start ignoring obj"
-
+.gitignore
 debug.log
 .vscode
 bin
 obj
-.github
 
