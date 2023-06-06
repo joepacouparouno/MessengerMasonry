@@ -1,0 +1,11 @@
+/* /Shared/MainLayout.razor.rz.scp.css */
+.page[b-1idd8tvo0d] {
+    min-width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    min-height: 64vh;
+    background: var(--primaryColor);
+    z-index: 1;
+}
+
+/* /Shared/NavMenu.razor.rz.scp.css */
