@@ -7,7 +7,7 @@
   "linkerEnabled": true,
   "resources": {
     "assembly": {
-      "Messenger_Masonry.dll": "sha256-yj4qe9hQN4zYhRSbUS63zvkmiZ07gkRaJ9nTuUDk\/+8=",
+      "Messenger_Masonry.dll": "sha256-dAZOAbvdEDykG+LV7kiDAByWJc2u\/Ai67eoT1Kudc\/0=",
       "Microsoft.AspNetCore.Components.dll": "sha256-yt3vX+tG6ZoHoF1Z2hbiiMMTaeR5u5pPqhO8sPxqRW8=",
       "Microsoft.AspNetCore.Components.Web.dll": "sha256-J56CIqNtJKqXm6dWMAhvRI23W5p7RnErlWEDZVcwjV0=",
       "Microsoft.AspNetCore.Components.WebAssembly.dll": "sha256-Izlw\/SnIKXEmOa2P51s8rKqkVBfJ+MDvJMUpyP5lHkk=",

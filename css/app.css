@@ -472,7 +472,6 @@ main {
         transform: translate(100%, 0);
         transition: 0.4s transform ease-in-out;
     }
-
     .panelActive {
         transform: translate(0, 0);
         transition: 0.4s transform ease-in-out;
@@ -510,7 +509,7 @@ main {
 
     .mobileNavLinks > .active {
         transition: .4s all ease-in-out;
-        color:var(--accentColor);
+        color: var(--accentColor);
         border-right-color: var(--accentColor);
     }
 
@@ -589,7 +588,51 @@ main {
     .contactHero {
         background: var(--secondaryColor);
         color: var(--primaryColor);
+        flex-flow: column nowrap;
     }
+
+    .contactLinks {
+        margin: 55px 0;
+    }
+
+    .contactLinks > li {
+        list-style: none;
+        display: flex;
+        flex-flow: row nowrap;
+        margin: 25px 0 0 0;
+    }
+
+    .contactLinks > li > span {
+        padding: 0 0 0 12px;
+        color: var(--primaryColor);
+        font-weight: var(--secondaryFontWeight);
+    }
+    .contactLinks > li > a > span {
+        padding: 0 0 0 12px;
+        color: var(--primaryColor);
+        font-weight: var(--secondaryFontWeight);
+    }
+
+    .contactLinks > li > a {
+        color: var(--primaryColor);
+        font-weight: var(--secondaryFontWeight);
+        list-style: none;
+        display: flex;
+        flex-flow: row nowrap;
+    }
+
+    .contactIcon {
+        width: 25px;
+        height: 25px;
+    }
+    .contactIcon > img {
+        fill: var(--accentColor);
+        height: 100%;
+        width: 100%;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
 
 /* 5. Footer *************************************/
 
@@ -610,12 +653,12 @@ main {
         grid-column: 1;
         width: 100%;
         max-width: 150px;
-        padding: 0 0px 0 25px;
-
+        padding: 0 10px 0 15px;
+        align-items: center;
     }
 
     .rightContainer {
-        padding: 0 25px 0 0;
+        padding: 0 15px 0 0;
         grid-row: 1;
         grid-column: 2;
         width: 100%;
@@ -676,10 +719,6 @@ main {
         border-top: 2px solid var(--accentColor);
         padding: 10px 15px 0 0;
     }
-
-
-/* 00. Animation ****************************/
-
 
 /* 00. Media Queries ****************************/
 
