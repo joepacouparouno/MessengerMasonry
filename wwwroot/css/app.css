@@ -69,6 +69,15 @@ main {
     z-index: 1;
 }
 
+.disableSelect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror */
+    -moz-user-select: none; /* Old version of Firefox */
+    -ms-user-select: none; /* Internet Explorer or Edge */
+    user-select: none; /* All modern browsers */
+}
+
 /* Scroll Bar *******************/
 
     /* width */
@@ -124,7 +133,7 @@ main {
     }
 
     p {
-        letter-spacing: .05rem;
+        letter-spacing: .02rem;
     }
 
     h1 {
@@ -205,6 +214,15 @@ main {
         font-weight: var(--secondaryFontWeight);
     }
 
+    .whiteFont{
+        text-transform: uppercase;
+        color: var(--secondaryColor);
+        font-weight: var(--secondaryFontWeight);
+    }
+
+    .blackFont {
+        color: var(--primaryColor);
+    }
 
     .valid.modified:not([type=checkbox]) {
         outline: 1px solid #26b050;
@@ -254,15 +272,14 @@ main {
     width: 100%;
     max-width: var(--maxPageWidth);
     display: flex;
-    display: flex;
-    background-color: transparent;
+    position: sticky;
+    top: 0;
+    background: var(--primaryColor);
     transition: .4s background-color ease-in-out, .4s border-color ease-in-out;
     border-bottom: 2px solid transparent;
     flex-flow: column nowrap;
     justify-content: center;
     z-index: 100;
-    position: fixed;
-    top: 0;
 }
 
     .navbar:hover {
@@ -286,6 +303,7 @@ main {
     align-items: center;
     justify-content: space-between;
     padding: 0 20px;
+    background: var(--primaryColor);
 }
 
 .navLinks {
@@ -375,14 +393,14 @@ main {
         height: 3px;
         background: var(--secondaryColor);
     }
-    .bar1Active {
+    .bar1.Active {
         animation-name: bar1Anim;
         animation-duration: .3s;
         animation-direction: forwards;
         animation-fill-mode: forwards;
         transform: translate(0, 21px) rotate(45deg);
     }
-    .bar1Inactive {
+    .bar1.Inactive {
         animation-name: bar1Anim;
         animation-duration: .3s;
         animation-direction: reverse;
@@ -394,14 +412,14 @@ main {
         height: 3px;
         background: var(--secondaryColor);
     }
-    .bar2Active {
+    .bar2.Active {
         animation-name: bar2Anim;
         animation-duration: .3s;
         animation-direction: forwards;
         animation-fill-mode: forwards;
         background: transparent;
     }
-    .bar2Inactive {
+    .bar2.Inactive {
         animation-name: bar2Anim;
         animation-duration: .3s;
         animation-direction: reverse;
@@ -413,14 +431,14 @@ main {
         height: 3px;
         background: var(--secondaryColor);
     }
-    .bar3Active {
+    .bar3.Active {
         animation-name: bar3Anim;
         animation-duration: .3s;
         animation-direction: forwards;
         animation-fill-mode: forwards;
         transform: translate(0, 15px) rotate(-45deg);
     }
-    .bar3Inactive {
+    .bar3.Inactive {
         animation-name: bar3Anim;
         animation-duration: .3s;
         animation-direction: reverse;
@@ -550,8 +568,12 @@ main {
     justify-content: flex-start;
     align-items: flex-start;
     z-index: 100;
-    padding: 100px 15px;
+    padding: 50px 15px 80px 15px;
     max-width: var(--maxContentWidth);
+}
+
+.heroContent > h1 {
+    max-width: 20ch;
 }
 
 .homeHero {
@@ -563,7 +585,7 @@ main {
 }
 
 .topHero {
-    padding: 120px 0 0 0;
+    padding: 80px 0 0 0;
 }
 
 #about {
@@ -584,6 +606,81 @@ main {
     padding: 120px 0 0 0;
 }
 
+.workGallery {
+    display: grid;
+    grid-template-columns: 1;
+    background: var(--accentColor);
+    grid-gap: 5px;
+    padding: 10px;
+}
+
+.workImage {
+    object-fit: cover;
+    width: 100%;
+    height: 250px;
+}
+
+/* 5. Work  *************************************/
+
+
+
+/* lightBox */
+
+.lightBox {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 120;
+    padding: 0 25px;
+}
+
+.show {
+    display: flex;
+}
+
+.hide {
+    display: none;
+}
+
+.content {
+    width: 80%;
+    height: 80%;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 4px #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lightBoxImg {
+    max-width: 100%;
+    max-height: 80vh;
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+.lightBoxText {
+    color: var(--secondaryColor);
+    opacity: 0.4;
+    text-align: center;
+    font-weight: 100;
+}
+
+.lightBoxText:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+
 /* 5. Contact *************************************/
     .contactHero {
         background: var(--secondaryColor);
@@ -603,12 +700,12 @@ main {
     }
 
     .contactLinks > li > span {
-        padding: 0 0 0 12px;
+        margin: 5px 0 0 12px;
         color: var(--primaryColor);
         font-weight: var(--secondaryFontWeight);
     }
     .contactLinks > li > a > span {
-        padding: 0 0 0 12px;
+        margin: 5px 0 0 12px;
         color: var(--primaryColor);
         font-weight: var(--secondaryFontWeight);
     }
@@ -622,10 +719,15 @@ main {
     }
 
     .contactIcon {
-        width: 25px;
-        height: 25px;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        flex-flow: column nowrap;
+        padding: 5px;
     }
-    .contactIcon > img {
+    .contactIcon > SVG {
         fill: var(--accentColor);
         height: 100%;
         width: 100%;
@@ -720,6 +822,97 @@ main {
         padding: 10px 15px 0 0;
     }
 
+
+
+/* 00. Animation ****************************/
+    .fadeOut {
+        opacity: 1;
+        animation: fadeOut 0.5s forwards;
+        -webkit-animation: fadeOut 0.5s forwards;
+        -o-animation: fadeOut 0.5s forwards;
+        -moz-animation: fadeOut 0.5s forwards;
+    }
+
+    .fadeIn {
+        opacity: 0;
+        animation: fadeIn 0.5s forwards;
+        -webkit-animation: fadeIn 0.5s forwards;
+        -o-animation: fadeIn 0.5s forwards;
+        -moz-animation: fadeIn 0.5s forwards;
+    }
+
+    @keyframes fadeOut {
+        0% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
+
+        @-webkit-keyframes fadeOut {
+            from {
+                opacity: 1;
+            }
+            to {
+                opacity: 0;
+            }
+        }
+
+        @-o-keyframes fadeOut {
+            from {
+                opacity: 1;
+            }
+            to {
+                opacity: 0;
+            }
+        }
+
+        @-moz-keyframes fadeOut {
+            from {
+                opacity: 1;
+            }
+            to {
+                opacity: 0;
+            }
+        }
+    
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+
+        @-webkit-keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @-o-keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @-moz-keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
 /* 00. Media Queries ****************************/
 
     /* Tablet **************************************/
@@ -743,6 +936,15 @@ main {
         .mobileNavPanel {
             display: none;
         }
+        .workGallery {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            background: var(--accentColor);
+        }
+        .workImage {
+            min-width: 100%;
+            min-height: 100%;
+        }
     }
 
 
@@ -752,5 +954,10 @@ main {
     @media screen and (min-width: 1080px) {
         html, body {
             font-size: 1.2em;   
+        }
+        .workGallery {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            background: var(--accentColor);
         }
     }
